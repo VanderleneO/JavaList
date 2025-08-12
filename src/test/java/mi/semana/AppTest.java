@@ -1,17 +1,12 @@
 package mi.semana;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
 
-/**
- * Unit test for simple App.
- */
-class AppTest { 
-    /**
-     * Rigorous Test.
-     */
+
+public class AppTest {
+
     @Test
-    void testApp() {
-        assertEquals(1, 1);
+    public void shouldAnswerWithTrue() {
+        assertTrue(true);
     }
 }
